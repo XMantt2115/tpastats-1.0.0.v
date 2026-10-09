@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tpastats",
+  "version": "${version}",
+  "name": "TPA Stats",
+  "description": "Pokazuje graczy, którzy chcą się do Ciebie teleportować, i jednym kliknięciem sprawdza ich /stats.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.tpastats.TpaStatsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
